@@ -26,8 +26,6 @@ services:
     depends_on:
       - redis
       - prometheus
-      - intertechno_phpmyadmin
-      - intertechno_mysqldb
 
   web:
     image: nginx:alpine
